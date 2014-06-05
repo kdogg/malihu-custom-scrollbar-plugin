@@ -1,1 +1,1 @@
-/home/ken/WTS/wtswiki/d.ts/jquery.mCustomScrollbar.d.ts
+../../d.ts/jquery.mCustomScrollbar.d.ts
