@@ -37,6 +37,12 @@ and dependencies (minified).
 */
 
 ;(function($,window,document,undefined){
+
+    var KK = true
+    var SCROLLBAR_INTERVAL  = 60
+    if(  KK ) {
+	SCROLLBAR_INTERVAL = 500
+    }
 	
 	/* 
 	----------------------------------------
@@ -601,7 +607,8 @@ and dependencies (minified).
 								methodOptions.overwrite="none";
 								functions._scrollTo.call(this,$this,to[1].toString(),methodOptions);
 							}
-						},60);
+// KK EDIT					},60);
+						},SCROLLBAR_INTERVAL ); // KK EDITS
 						
 					}
 					
