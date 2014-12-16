@@ -1701,7 +1701,10 @@ and dependencies (minified).
 							}
 						}
 						if(o.advanced.updateOnSelectorChange || o.advanced.updateOnContentResize || o.advanced.updateOnImageLoad){upd();}
-					},60);
+// KK EDIT					},60);
+
+						},SCROLLBAR_INTERVAL ); // KK EDITS
+
 				}
 				/* returns images amount */
 				function imgSum(){
